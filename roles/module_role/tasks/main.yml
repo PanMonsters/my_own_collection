@@ -1,7 +1,7 @@
 ---
 # tasks file for myrole
 - name: test_my_own_module
-  my_own_module:
+  my_own_namespace.my_collection.my_own_module:
     path: "{{ my_path }}"
     text: "{{ my_content }}"
   register: status
